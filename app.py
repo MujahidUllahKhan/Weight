@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import streamlit as st
 import pandas as pd, numpy as np, joblib, os
 from sklearn.linear_model import LogisticRegression
