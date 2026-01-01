@@ -1,10 +1,14 @@
-# app.py
+# First to import libraries
+#streamlit is to transform a notebook into a web page
+#Joblib is for save and load model
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 import os
 from sklearn.linear_model import LogisticRegression
+
+#We are saving our model here for next use
 
 MODEL = "bmi_cat_model.pkl"
 
